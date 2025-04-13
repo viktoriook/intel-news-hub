@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import LatestNews from "@/components/LatestNews";
 import InsightSection from "@/components/InsightSection";
-import CryptoWatch from "@/components/CryptoWatch";
+import AIIntelligence from "@/components/AIIntelligence";
 import AboutSection from "@/components/AboutSection";
 import Footer from "@/components/Footer";
 
@@ -14,7 +14,7 @@ const Index = () => {
       <Hero />
       <LatestNews />
       <InsightSection />
-      <CryptoWatch />
+      <AIIntelligence />
       <AboutSection />
       <Footer />
     </div>

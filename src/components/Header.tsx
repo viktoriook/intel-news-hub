@@ -28,7 +28,7 @@ const Header = () => {
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            {['Home', 'Markets', 'Insights', 'Crypto', 'About'].map((item) => (
+            {['Home', 'Markets', 'Insights', 'AI', 'About'].map((item) => (
               <a 
                 key={item} 
                 href={`#${item.toLowerCase()}`} 
@@ -55,7 +55,7 @@ const Header = () => {
         <div className="md:hidden bg-market-blue absolute top-full left-0 w-full border-t border-market-light-blue/20">
           <div className="container mx-auto py-4 px-4">
             <nav className="flex flex-col space-y-4">
-              {['Home', 'Markets', 'Insights', 'Crypto', 'About'].map((item) => (
+              {['Home', 'Markets', 'Insights', 'AI', 'About'].map((item) => (
                 <a 
                   key={item} 
                   href={`#${item.toLowerCase()}`} 
